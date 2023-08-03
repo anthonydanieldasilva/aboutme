@@ -92,7 +92,7 @@ $(document).ready(function() {
 
 
   $('.services-carousel').owlCarousel({
-      autoplay: true,
+      autoplay: false,
       loop: true,
       margin: 10,
       dots: true,
@@ -105,16 +105,16 @@ $(document).ready(function() {
   //  magnificPopup
   // ========================================================================= //
 
-  var magnifPopup = function() {
+  /*var magnifPopup = function() {
     $('.popup-img').magnificPopup({
       type: 'image',
       removalDelay: 300,
       mainClass: 'mfp-with-zoom',
       gallery: {
-        enabled: true
+        enabled: false
       },
       zoom: {
-        enabled: true, // By default it's false, so don't forget to enable it
+        enabled: false, // By default it's false, so don't forget to enable it
 
         duration: 300, // duration of the effect, in milliseconds
         easing: 'ease-in-out', // CSS transition easing function
@@ -133,14 +133,14 @@ $(document).ready(function() {
 
 
   // Call the functions
-  magnifPopup();
+  magnifPopup();*/
 
 });
 
 // ========================================================================= //
 //  Porfolio isotope and filter
 // ========================================================================= //
-$(window).load(function(){
+/*$(window).load(function(){
 
   var portfolioIsotope = $('.portfolio-container').isotope({
     itemSelector: '.portfolio-thumbnail',
@@ -154,4 +154,4 @@ $(window).load(function(){
     portfolioIsotope.isotope({ filter: $(this).data('filter') });
   });
 
-})
+})*/
