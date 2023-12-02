@@ -774,7 +774,7 @@ img {
   color: #ff5e14;
   font-size: 32px;
   float: left;
-  margin-top: 8px;
+  margin-top: 15px;
 }
 .cta-text {
   padding-left: 15px;
@@ -782,13 +782,13 @@ img {
 }
 .cta-text h4 {
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   margin-bottom: 18px;
 }
 .cta-text span {
   color: #757575;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
 }
 .footer-content {
